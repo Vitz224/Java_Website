@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 25, 2023, 10:20:58 PM
+    Author     : Binaramalee jayakody
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@700&family=Poppins:wght@300&family=Roboto+Mono:ital@1&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@300;400;500&family=Stick+No+Bills:wght@600&display=swap');
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1163014080/photo/shopping-cart-down-the-supermarket-aisle-filled-with-groceries.jpg?s=612x612&w=0&k=20&c=agTDYft8T2vUiJJs7TGyvJlIYui6gerV1Eaa27JdUqI=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box{
+    width: 600px;
+  height: 450px;
+  border: 5px solid black;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  background-color: #66cc00;
+}
+
+.signup-form button{
+    background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: 1px solid;
+      border-radius: 3px;
+      cursor: pointer;
+}
+
+.signup-form button:hover{
+    background-color: grey;
+}

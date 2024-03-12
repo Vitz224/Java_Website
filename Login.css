@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 26, 2023, 10:51:02 AM
+    Author     : Binaramalee jayakody
+*/
+
+
+body {
+     
+      margin: 0;
+      padding: 0;
+     
+    }
+
+   
+
+    
+   
+    .box{
+    width: 400px;
+  height: 450px;
+  border: 5px solid black;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-color: #66cc00;
+}
+
+    .login-form button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: 1px solid;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+   
+
+    .login-form button:hover {
+      background-color: grey;
+    }
+
+    .signup-link {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .signup-link a {
+      color: #4CAF50;
+      text-decoration: none;
+      
+    }
+
+    .signup-link a:hover{
+        color: red;
+        
+    }
+    .or-separator {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    
+
+   
+    
+    body {
+  background-image: url("https://wallpapertag.com/wallpaper/middle/f/2/4/221959-free-lime-green-background-1920x1200-mac.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
