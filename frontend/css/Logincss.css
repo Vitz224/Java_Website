@@ -1,0 +1,52 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 25, 2023, 9:07:23 PM
+    Author     : Binaramalee jayakody
+*/
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    .image {
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    .heading {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .subheading {
+      font-size: 16px;
+      margin: 5px 0;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .container button a:hover {
+      background-color: #388E3C;
+    }
+    
+    
+

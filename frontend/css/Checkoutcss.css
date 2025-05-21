@@ -1,0 +1,376 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 26, 2023, 4:55:19 PM
+    Author     : Binaramalee jayakody
+*/
+
+nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: greenyellow;
+        }
+        
+        .search-container {
+            display: flex;
+            align-items: center;
+            width: 300px;
+        }
+        
+        .search-input {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+        }
+        
+        .search-button {
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #eee;
+            cursor: pointer;
+        }
+        
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .categories li {
+            margin: 0 10px;
+            padding: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+        
+        .categories li a {
+            color: black;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown {
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ddd;
+            min-width: 160px;
+            box-shadow: 0px
+ 
+8px
+ 
+16px
+ 
+0px
+ 
+rgba(0,0,0,0.2);
+        }
+        
+        .dropdown-content
+ 
+a {
+            color: black;
+            padding: 12px
+ 
+16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content
+ 
+a:hover {background-color:
+ 
+#ddd}
+        .dropdown:hover
+ 
+.dropdown-content {display: block;}
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .header img {
+      width: 150px;
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .main .product {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main .product img {
+      width: 100px;
+      margin: 0 auto;
+    }
+
+    .main .product h2 {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    .main .product p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .main .product button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .main .product button:hover {
+      background-color: #388E3C;
+    }
+    
+     body {
+  background-image: url("https://media.istockphoto.com/id/1163014080/photo/shopping-cart-down-the-supermarket-aisle-filled-with-groceries.jpg?s=612x612&w=0&k=20&c=agTDYft8T2vUiJJs7TGyvJlIYui6gerV1Eaa27JdUqI=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background: green;
+}
+
+.top-bar span{
+    color: #ffffff;
+}
+
+
+.top-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.top-bar li{
+    margin: 0px 5px;
+}
+
+.top-bar a{
+    color: #ffffff;
+}
+
+.top-bar a:hover{
+    color: #222;
+}
+
+nav{
+    background: #222;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #ef4b3f;
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo a:hover{
+    color: #ffffff;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.toggle{
+    font-size: 30px;
+    display: none;
+}
+
+.box{
+     width: 800px;
+  height: 850px;
+  border: 3px solid black;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+.box-1{
+    width: 900px;
+  height: 400px;
+  border: 3px solid black;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+ button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+   button:hover {
+      background-color: #388E3C;
+    }
+@media screen and (max-width: 600px){
+    nav{
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+    
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+    
+    .menu.active, .toggle{
+        display: block;
+    }
+    
+    .toggle{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+}
+
+.footer{
+background:#222;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:white;
+font-size:16px;
+}
+
+.footer .row a{
+text-decoration:none;
+color:white;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:grey;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
